@@ -1,0 +1,29 @@
+@import './normalize.css';
+
+:root{
+    /* css文件中定义变量，这样就可以在其他地方引用这些变量 */
+    --color-text:#666;
+    --color-high-color:#ff5777;
+    --color-tint:#ff8198;
+    --color-background:#fff;
+    --font-size:14px;
+    --line-height:1.5
+}
+
+/* 例如引用上边的那些变量 */
+/* body{
+    font-size: var(--font-size);
+} */
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
